@@ -40,7 +40,7 @@ $$\frac{1}{2} \omega$$
 When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
-### MathJax
+<h1> MathJax </h1>
 
 Let's test some inline math $x$, $y$, $x_1$, $y_1$.
 
