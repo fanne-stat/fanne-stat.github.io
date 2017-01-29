@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Site Settings
 title:               Lagrange
 tagline:             a minimalist Jekyll theme
@@ -23,6 +23,4 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           none
 gems:                [jekyll-paginate]
-=======
-theme: jekyll-theme-cayman
->>>>>>> ed84953ace0942ad20b5d7396676715ce26ad9fd
+
