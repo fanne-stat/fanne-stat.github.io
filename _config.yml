@@ -1,20 +1,18 @@
 
 # Site Settings
-title:               Lagrange
-tagline:             a minimalist Jekyll theme
+title:               Yifan Zhu
+tagline:             Statistician
 description:
-baseurl:            #"/Lagrange"
-url:                #"https://lenpaul.github.io"
+baseurl:            #"/Fanne"
+url:                #"https://fanne-stat.github.io"
 github:
   url:               "https://lenpaul.github.io/Lagrange"
 author:
-  name:              "Paul Le"
-  email:             "l.nguyen.paul@gmail.com"
-  twitter:           "paululele"
-  instagram:         "paululele"
-  github:            "lenpaul"
-  facebook:          "Le.Paul.94"
-  linkedin:          "lenpaul"
+  name:              "Yifan Zhu"
+  email:             "yifanzhu@iastate.edu"
+  github:            "fanne-stat"
+  facebook:          "Yifan Zhu"
+  linkedin:          "Yifan Zhu"
 paginate:            5
 
 
