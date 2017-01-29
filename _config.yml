@@ -6,7 +6,7 @@ description:
 baseurl:            #"/Fanne"
 url:                #"https://fanne-stat.github.io"
 github:
-  url:               "https://lenpaul.github.io/Lagrange"
+  url:               "https://fanne-stat.github.io"
 author:
   name:              "Yifan Zhu"
   email:             "yifanzhu@iastate.edu"
