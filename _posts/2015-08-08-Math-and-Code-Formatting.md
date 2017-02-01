@@ -26,6 +26,8 @@ $$
 
 $$ \frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j} $$
 
+
+
 $$\frac{1}{2} \omega$$
 
 
