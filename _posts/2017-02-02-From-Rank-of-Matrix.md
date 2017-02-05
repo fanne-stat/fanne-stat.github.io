@@ -19,7 +19,7 @@ So what is a matrix? If it is an $n\times m$ matrix, then we can apply it to a v
 
 Let's be more abstract. Given two linear space $V$ and $W$ and a linear transformation $\mathcal{A}: V \to W$, how can we make a profile of the linear transformation?
 
-A natural idea is to find the image of all the elements of the original linear space $V$ in the destination linear space $W$. With this we know the mapping completely. But this method can actually work in any spaces and any transformations, and is too general for the spacial case of linear space and linear transformation. In fact, in this case what we need is only the image of all the basis of the original linear space $V$.
+A natural idea is to find the image of all the elements of the original linear space $V$ in the destination linear space $W$. With this we know the mapping completely. But this method can actually work in any spaces and any transformations, and is too general for the special case of linear space and linear transformation. In fact, in this case what we need is only the image of all the basis of the original linear space $V$.
 
 The reason is we can always write any elements in $V$ as a linear combination the basis of $V$. And this combination is unique. The uniqueness can be obtained like this:
 
@@ -119,7 +119,10 @@ Then assume the basis of $\mathcal{A}^{-1}(\boldsymbol{0})$ is $\\{\boldsymbol{\
 
  Let $l_1 \boldsymbol{\epsilon}_1 + l_2 \boldsymbol{\epsilon}_2 + \cdots + l_m \boldsymbol{\epsilon}_m = \boldsymbol{0}$. 
  Applying $\mathcal{A}$ to both sides, 
- we have $l_1 \mathcal{A} \boldsymbol{\epsilon}_1 + \cdots + l_r \mathcal{A} \boldsymbol{\epsilon}_r + l\_{r+1} \mathcal{A} \boldsymbol{\epsilon}\_{r+1}+ \cdots + l_m \mathcal{A} \boldsymbol{\epsilon}_m = l_1 \boldsymbol{\eta}_1 + \cdots + l_r \boldsymbol{\eta}_r = \boldsymbol{0}$. 
+ we have 
+
+ $$l_1 \mathcal{A} \boldsymbol{\epsilon}_1 + \cdots + l_r \mathcal{A} \boldsymbol{\epsilon}_r + l\_{r+1} \mathcal{A} \boldsymbol{\epsilon}\_{r+1}+ \cdots + l_m \mathcal{A} \boldsymbol{\epsilon}_m = l_1 \boldsymbol{\eta}_1 + \cdots + l_r \boldsymbol{\eta}_r = \boldsymbol{0}$$
+  
  As $\\{\boldsymbol{\eta}_1, \cdots , \boldsymbol{\eta}_r\\}$ are linearly independent, then we have $l_1 = \cdots = l_r = 0$. Thus $l\_{r+1} \boldsymbol{\epsilon}\_{r+1} + \cdots + l_m \boldsymbol{\epsilon}_m = \boldsymbol{0}$. Again, $\\{\boldsymbol{\epsilon}\_{r+1}, \cdots, \boldsymbol{\epsilon}_m\\}$ are linearly independent, then we have $l\_{r+1} = \cdots = l_m = 0$. Hence from $l_1 \boldsymbol{\epsilon}_1 + \cdots + l_m \boldsymbol{\epsilon}_m = \boldsymbol{0}$ we get $l_1 = \cdots = l_m = 0$. Thus $\\{\boldsymbol{\epsilon}_1 ,\cdots , \boldsymbol{\epsilon}_m\\}$ are linearly independent.
 
  We then prove any $\boldsymbol{v} \in V$ can be written as linear combination of $\\{\boldsymbol{\epsilon}_1, \cdots, \boldsymbol{\epsilon}_m\\}$. 
