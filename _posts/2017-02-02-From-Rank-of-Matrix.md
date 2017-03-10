@@ -121,7 +121,7 @@ Then assume the basis of $\mathcal{A}^{-1}(\boldsymbol{0})$ is $\\{\boldsymbol{\
  Applying $\mathcal{A}$ to both sides, 
  we have 
 
- $$l_1 \mathcal{A} \boldsymbol{\epsilon}_1 + \cdots + l_r \mathcal{A} \boldsymbol{\epsilon}_r + l\_{r+1} \mathcal{A} \boldsymbol{\epsilon}\_{r+1}+ \cdots + l_m \mathcal{A} \boldsymbol{\epsilon}_m = l_1 \boldsymbol{\eta}_1 + \cdots + l_r \boldsymbol{\eta}_r = \boldsymbol{0}$$
+ $$l_1 \mathcal{A} \boldsymbol{\epsilon}_1 + \cdots + l_r \mathcal{A} \boldsymbol{\epsilon}_r + l_{r+1} \mathcal{A} \boldsymbol{\epsilon}_{r+1}+ \cdots + l_m \mathcal{A} \boldsymbol{\epsilon}_m = l_1 \boldsymbol{\eta}_1 + \cdots + l_r \boldsymbol{\eta}_r = \boldsymbol{0}$$
   
  As $\\{\boldsymbol{\eta}_1, \cdots , \boldsymbol{\eta}_r\\}$ are linearly independent, then we have $l_1 = \cdots = l_r = 0$. Thus $l\_{r+1} \boldsymbol{\epsilon}\_{r+1} + \cdots + l_m \boldsymbol{\epsilon}_m = \boldsymbol{0}$. Again, $\\{\boldsymbol{\epsilon}\_{r+1}, \cdots, \boldsymbol{\epsilon}_m\\}$ are linearly independent, then we have $l\_{r+1} = \cdots = l_m = 0$. Hence from $l_1 \boldsymbol{\epsilon}_1 + \cdots + l_m \boldsymbol{\epsilon}_m = \boldsymbol{0}$ we get $l_1 = \cdots = l_m = 0$. Thus $\\{\boldsymbol{\epsilon}_1 ,\cdots , \boldsymbol{\epsilon}_m\\}$ are linearly independent.
 
